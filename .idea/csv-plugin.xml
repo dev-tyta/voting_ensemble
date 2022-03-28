@@ -3,7 +3,14 @@
   <component name="CsvFileAttributes">
     <option name="attributeMap">
       <map>
-        <entry key="\samplesub.csv">
+        <entry key="\Baseline.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\policies.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
@@ -18,13 +25,6 @@
           </value>
         </entry>
         <entry key="\train.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value="," />
-            </Attribute>
-          </value>
-        </entry>
-        <entry key="\vardescrip.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
