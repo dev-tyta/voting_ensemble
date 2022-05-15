@@ -1,16 +1,11 @@
-# This is a sample Python script.
+import streamlit as st
+import pickle
 
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
+voting_pickle = open('voting_ensemble.pickle', 'rb')
+map_pickle = open('output_result.pickle', 'rb')
 
+voting_clf = pickle.load(voting_pickle)
+unique_mapping = pickle.load(map_pickle)
 
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
-
-
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+st.title('Loan Availability Prediction')
+st.write('Intro...... ')
