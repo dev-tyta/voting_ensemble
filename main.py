@@ -22,13 +22,26 @@ employed = st.selectbox('Employment Status:', ['Self-Employed', 'Employed'])
 
 base_currency = st.selectbox('Base Currency:', ['NGN', 'USD', 'EURO'])
 
-app_income = st.number_input('Applicant Income:')
+app_income = st.number_input('Applicant Income:').is_integer()
 
 if base_currency == 'NGN':
     dol_income = app_income / 570
 elif base_currency == 'USD':
     dol_income = app_income
-elif base_currency == 'EURO'
+elif base_currency == 'EURO':
+    dol_income = app_income * 0.877
+
+co_income = st.number_input('Side Income ny Applicant:').is_integer()
+
+if base_currency == 'NGN':
+    dol_co_income = co_income / 570
+elif base_currency == 'USD':
+    dol_co_income = co_income
+elif base_currency == 'EURO':
+    dol_co_income = co_income * 0.877
+
+loan_amount = st.number_input('Amount you would love to borrow:').is_integer()
+
 
 # Gender, Married, Dependents, Education, Self_Employed, ApplicantIncome,\
 # CoapplicantIncome, LoanAmount, Loan_Amount_Term, Credit_History, Property_Area
