@@ -44,4 +44,4 @@ loan_amount = st.number_input('Amount you would love to borrow:').is_integer()
 
 
 # Gender, Married, Dependents, Education, Self_Employed, ApplicantIncome,\
-# CoapplicantIncome, LoanAmount, Loan_Amount_Term, Credit_History, Property_Area
+# Co-applicant Income, LoanAmount, Loan_Amount_Term, Credit_History, Property_Area
