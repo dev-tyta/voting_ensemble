@@ -7,8 +7,6 @@
     <list default="true" id="597e5603-55e1-4e4c-9ad0-9aa80e46a91e" name="Changes" comment="i don't know">
       <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Untitled.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Untitled.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/func.py" beforeDir="false" afterPath="$PROJECT_DIR$/func.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -97,7 +95,7 @@
       <workItem from="1652652185623" duration="629000" />
       <workItem from="1652653873245" duration="2365000" />
       <workItem from="1652702954148" duration="3280000" />
-      <workItem from="1652731681693" duration="4361000" />
+      <workItem from="1652731681693" duration="4865000" />
     </task>
     <task id="LOCAL-00001" summary="just normal files">
       <created>1652644629426</created>
